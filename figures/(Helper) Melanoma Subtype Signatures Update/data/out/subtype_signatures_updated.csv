@@ -1,0 +1,532 @@
+Gene,Signature
+AJUBA,Undifferentiated
+TOR4A,Undifferentiated
+MARCHF4,Undifferentiated
+ZDHHC2,Undifferentiated
+ZNF467,Undifferentiated
+ZNF185,Undifferentiated
+ZIC2,Undifferentiated
+VASN,Undifferentiated
+UCP2,Undifferentiated
+GALNT6,Undifferentiated
+TNFAIP2,Undifferentiated
+TNFSF18,Undifferentiated
+TMEM40,Undifferentiated
+TMEM200A,Undifferentiated
+TMEM184A,Undifferentiated
+TBL1X,Undifferentiated
+TRERF1,Undifferentiated
+TOX,Undifferentiated
+TBC1D2,Undifferentiated
+SFN,Undifferentiated
+SAMD12,Undifferentiated
+SAMD11,Undifferentiated
+SOX9,Undifferentiated
+SLC8A1,Undifferentiated
+SLC38A4,Undifferentiated
+SLC16A14,Undifferentiated
+SCN5A,Undifferentiated
+SCNN1A,Undifferentiated
+SH3RF2,Undifferentiated
+SERPINB7,Undifferentiated
+SLPI,Undifferentiated
+SECTM1,Undifferentiated
+RUNX2,Undifferentiated
+ARHGAP29,Undifferentiated
+REN,Undifferentiated
+PAWR,Undifferentiated
+PSG9,Undifferentiated
+PSG5,Undifferentiated
+PSG4,Undifferentiated
+PBX1,Undifferentiated
+PLAGL1,Undifferentiated
+PHLDB2,Undifferentiated
+PLEKHA6,Undifferentiated
+PDGFC,Undifferentiated
+PLAU,Undifferentiated
+PKP2,Undifferentiated
+PLAC8,Undifferentiated
+PADI3,Undifferentiated
+PITX1,Undifferentiated
+NUAK1,Undifferentiated
+NTNG1,Undifferentiated
+NMT2,Undifferentiated
+MYEOV,Undifferentiated
+MICAL2,Undifferentiated
+MGST1,Undifferentiated
+MECOM,Undifferentiated
+LYPD6B,Undifferentiated
+LAMA5,Undifferentiated
+KISS1,Undifferentiated
+KRT86,Undifferentiated
+KRT81,Undifferentiated
+KRT80,Undifferentiated
+KRT8,Undifferentiated
+KRT7,Undifferentiated
+KRT18,Undifferentiated
+JUP,Undifferentiated
+IL7R,Undifferentiated
+IL4R,Undifferentiated
+IRS1,Undifferentiated
+IGFN1,Undifferentiated
+HES7,Undifferentiated
+GDA,Undifferentiated
+GLIS2,Undifferentiated
+GATA2,Undifferentiated
+GPRC5C,Undifferentiated
+GPRC5A,Undifferentiated
+FMNL1,Undifferentiated
+FOXA1,Undifferentiated
+FLNC,Undifferentiated
+FERMT1,Undifferentiated
+FAT4,Undifferentiated
+INSYN2B,Undifferentiated
+ELFN2,Undifferentiated
+EGFR,Undifferentiated
+DSE,Undifferentiated
+DMBT1,Undifferentiated
+DIO2,Undifferentiated
+DOCK2,Undifferentiated
+CYP2S1,Undifferentiated
+CRIM1,Undifferentiated
+CDK15,Undifferentiated
+CORO6,Undifferentiated
+COLEC10,Undifferentiated
+CCDC88C,Undifferentiated
+CCDC69,Undifferentiated
+F3,Undifferentiated
+F2RL1,Undifferentiated
+CLU,Undifferentiated
+CDYL2,Undifferentiated
+CITED2,Undifferentiated
+CARD11,Undifferentiated
+CPA4,Undifferentiated
+CREB3L1,Undifferentiated
+CNN1,Undifferentiated
+CALB2,Undifferentiated
+CDH4,Undifferentiated
+BTBD11,Undifferentiated
+BDNF,Undifferentiated
+BASP1,Undifferentiated
+BNC1,Undifferentiated
+ATP8B1,Undifferentiated
+ABCG2,Undifferentiated
+ARMC4,Undifferentiated
+ANKRD1,Undifferentiated
+AR,Undifferentiated
+AMIGO2,Undifferentiated
+ADAMTSL1,Undifferentiated
+ACSL5,Undifferentiated
+VIT,Undifferentiated-Neural crest-like
+VIPR1,Undifferentiated-Neural crest-like
+VEGFC,Undifferentiated-Neural crest-like
+TWIST2,Undifferentiated-Neural crest-like
+TNFRSF12A,Undifferentiated-Neural crest-like
+TPM1,Undifferentiated-Neural crest-like
+TPBG,Undifferentiated-Neural crest-like
+TLE4,Undifferentiated-Neural crest-like
+TOX2,Undifferentiated-Neural crest-like
+TLR4,Undifferentiated-Neural crest-like
+THSD4,Undifferentiated-Neural crest-like
+STX1A,Undifferentiated-Neural crest-like
+SYT1,Undifferentiated-Neural crest-like
+SYNPO,Undifferentiated-Neural crest-like
+STRA6,Undifferentiated-Neural crest-like
+STC2,Undifferentiated-Neural crest-like
+SPRED3,Undifferentiated-Neural crest-like
+SPOCD1,Undifferentiated-Neural crest-like
+SPOCK1,Undifferentiated-Neural crest-like
+SLC2A1,Undifferentiated-Neural crest-like
+SLC16A2,Undifferentiated-Neural crest-like
+SLC14A1,Undifferentiated-Neural crest-like
+SLC12A8,Undifferentiated-Neural crest-like
+SMAGP,Undifferentiated-Neural crest-like
+SLIT2,Undifferentiated-Neural crest-like
+SDK1,Undifferentiated-Neural crest-like
+STAC,Undifferentiated-Neural crest-like
+SLFN11,Undifferentiated-Neural crest-like
+S100A2,Undifferentiated-Neural crest-like
+ROBO4,Undifferentiated-Neural crest-like
+RAB27B,Undifferentiated-Neural crest-like
+PKIA,Undifferentiated-Neural crest-like
+PRSS23,Undifferentiated-Neural crest-like
+PAPPA,Undifferentiated-Neural crest-like
+PRDM1,Undifferentiated-Neural crest-like
+KCNMA1,Undifferentiated-Neural crest-like
+KCNN4,Undifferentiated-Neural crest-like
+PODXL,Undifferentiated-Neural crest-like
+PDGFRB,Undifferentiated-Neural crest-like
+PLAUR,Undifferentiated-Neural crest-like
+PXDN,Undifferentiated-Neural crest-like
+PTX3,Undifferentiated-Neural crest-like
+NMNAT2,Undifferentiated-Neural crest-like
+NRP1,Undifferentiated-Neural crest-like
+NGEF,Undifferentiated-Neural crest-like
+NEGR1,Undifferentiated-Neural crest-like
+NRG1,Undifferentiated-Neural crest-like
+NTN4,Undifferentiated-Neural crest-like
+MT2A,Undifferentiated-Neural crest-like
+MT1E,Undifferentiated-Neural crest-like
+MPP4,Undifferentiated-Neural crest-like
+LOXL2,Undifferentiated-Neural crest-like
+LDOC1,Undifferentiated-Neural crest-like
+LAMB3,Undifferentiated-Neural crest-like
+JUN,Undifferentiated-Neural crest-like
+IL31RA,Undifferentiated-Neural crest-like
+IL11,Undifferentiated-Neural crest-like
+IL1B,Undifferentiated-Neural crest-like
+ITGA3,Undifferentiated-Neural crest-like
+ITGA2,Undifferentiated-Neural crest-like
+IGFBP6,Undifferentiated-Neural crest-like
+ID1,Undifferentiated-Neural crest-like
+INHBA,Undifferentiated-Neural crest-like
+HRH1,Undifferentiated-Neural crest-like
+GAS6,Undifferentiated-Neural crest-like
+GLIPR1,Undifferentiated-Neural crest-like
+GFRA1,Undifferentiated-Neural crest-like
+GATA3,Undifferentiated-Neural crest-like
+GPR176,Undifferentiated-Neural crest-like
+FZD2,Undifferentiated-Neural crest-like
+FJX1,Undifferentiated-Neural crest-like
+FOSL1,Undifferentiated-Neural crest-like
+FOXF1,Undifferentiated-Neural crest-like
+FBLIM1,Undifferentiated-Neural crest-like
+FLNB,Undifferentiated-Neural crest-like
+FAM83G,Undifferentiated-Neural crest-like
+FAM20C,Undifferentiated-Neural crest-like
+FAM171A1,Undifferentiated-Neural crest-like
+FAM155A,Undifferentiated-Neural crest-like
+ERRFI1,Undifferentiated-Neural crest-like
+EFNB2,Undifferentiated-Neural crest-like
+DPYD,Undifferentiated-Neural crest-like
+DKK1,Undifferentiated-Neural crest-like
+DOCK5,Undifferentiated-Neural crest-like
+CCN1,Undifferentiated-Neural crest-like
+CLMP,Undifferentiated-Neural crest-like
+COL13A1,Undifferentiated-Neural crest-like
+COL12A1,Undifferentiated-Neural crest-like
+COL5A1,Undifferentiated-Neural crest-like
+F2RL2,Undifferentiated-Neural crest-like
+BMERB1,Undifferentiated-Neural crest-like
+CCDC9B,Undifferentiated-Neural crest-like
+C12orf75,Undifferentiated-Neural crest-like
+CD163L1,Undifferentiated-Neural crest-like
+CAV1,Undifferentiated-Neural crest-like
+CARD10,Undifferentiated-Neural crest-like
+CLCF1,Undifferentiated-Neural crest-like
+CDH13,Undifferentiated-Neural crest-like
+BMP2,Undifferentiated-Neural crest-like
+AXL,Undifferentiated-Neural crest-like
+ABCC3,Undifferentiated-Neural crest-like
+ARNTL2,Undifferentiated-Neural crest-like
+ANTXR2,Undifferentiated-Neural crest-like
+ANXA1,Undifferentiated-Neural crest-like
+AKR1C3,Undifferentiated-Neural crest-like
+ARL4C,Undifferentiated-Neural crest-like
+PXYLP1,Neural crest-like
+CXCL8,Neural crest-like
+CEMIP,Neural crest-like
+TCAF2,Neural crest-like
+ZNF469,Neural crest-like
+WNT5A,Neural crest-like
+TMEM47,Neural crest-like
+TMEM171,Neural crest-like
+TGFBI,Neural crest-like
+TGFA,Neural crest-like
+TFAP2C,Neural crest-like
+TSPAN13,Neural crest-like
+SQOR,Neural crest-like
+SULF1,Neural crest-like
+ST8SIA5,Neural crest-like
+SOX2,Neural crest-like
+SLC24A3,Neural crest-like
+SLITRK6,Neural crest-like
+SHISA2,Neural crest-like
+SH3PXD2A,Neural crest-like
+SERTAD4,Neural crest-like
+STK32B,Neural crest-like
+SEMA3B,Neural crest-like
+SFRP1,Neural crest-like
+S100A6,Neural crest-like
+RAMP1,Neural crest-like
+PMEPA1,Neural crest-like
+PCSK5,Neural crest-like
+PHLDA2,Neural crest-like
+PLA2G7,Neural crest-like
+OPRD1,Neural crest-like
+NTM,Neural crest-like
+NRXN3,Neural crest-like
+NES,Neural crest-like
+MUC5B,Neural crest-like
+MAP1LC3A,Neural crest-like
+LRRC15,Neural crest-like
+KIAA1755,Neural crest-like
+ITGB8,Neural crest-like
+IER3,Neural crest-like
+HHEX,Neural crest-like
+GDNF,Neural crest-like
+GLI2,Neural crest-like
+FOXC2,Neural crest-like
+FLT1,Neural crest-like
+FAT3,Neural crest-like
+FEZ1,Neural crest-like
+FAM135B,Neural crest-like
+EHF,Neural crest-like
+EML1,Neural crest-like
+DRD2,Neural crest-like
+DEPDC7,Neural crest-like
+CYB5R2,Neural crest-like
+CSRP2,Neural crest-like
+CCL2,Neural crest-like
+CADM3,Neural crest-like
+CADM1,Neural crest-like
+CD96,Neural crest-like
+CTSS,Neural crest-like
+CHST2,Neural crest-like
+CHST1,Neural crest-like
+CACNA2D3,Neural crest-like
+BST1,Neural crest-like
+ABCA6,Neural crest-like
+ANGPTL4,Neural crest-like
+AIM2,Neural crest-like
+SPRY4,Neural crest-like-Transitory
+SORCS1,Neural crest-like-Transitory
+SLC35F1,Neural crest-like-Transitory
+SERPINA5,Neural crest-like-Transitory
+RFTN2,Neural crest-like-Transitory
+PCDH1,Neural crest-like-Transitory
+PTPRZ1,Neural crest-like-Transitory
+PRICKLE2,Neural crest-like-Transitory
+OLIG2,Neural crest-like-Transitory
+LOXL4,Neural crest-like-Transitory
+LOXL3,Neural crest-like-Transitory
+LGI4,Neural crest-like-Transitory
+LAMA4,Neural crest-like-Transitory
+GAS7,Neural crest-like-Transitory
+GRIK2,Neural crest-like-Transitory
+FREM2,Neural crest-like-Transitory
+FREM1,Neural crest-like-Transitory
+EPHB3,Neural crest-like-Transitory
+CRIP2,Neural crest-like-Transitory
+COL4A1,Neural crest-like-Transitory
+CADM4,Neural crest-like-Transitory
+BAALC,Neural crest-like-Transitory
+ABCA8,Neural crest-like-Transitory
+AGMO,Neural crest-like-Transitory
+ALDH1A3,Neural crest-like-Transitory
+XYLT1,Transitory
+TSPAN7,Transitory
+SOD3,Transitory
+SCRG1,Transitory
+SORL1,Transitory
+SEMA3E,Transitory
+SELENBP1,Transitory
+RNASE1,Transitory
+RAPGEF4,Transitory
+PCDH7,Transitory
+PRSS33,Transitory
+PCSK6,Transitory
+PLBD1,Transitory
+NELL1,Transitory
+NPR1,Transitory
+MCAM,Transitory
+MMP15,Transitory
+MAMDC2,Transitory
+LSAMP,Transitory
+LRRTM4,Transitory
+GDF11,Transitory
+FXYD3,Transitory
+EBF3,Transitory
+COL11A2,Transitory
+COL9A1,Transitory
+CX3CL1,Transitory
+BCHE,Transitory
+ANO4,Transitory
+ALDH1A1,Transitory
+ADGRG1,Transitory-Melanocytic
+MOB3B,Transitory-Melanocytic
+SEPTIN4,Transitory-Melanocytic
+TUBB4A,Transitory-Melanocytic
+UBAP1L,Transitory-Melanocytic
+ZNF704,Transitory-Melanocytic
+WFDC1,Transitory-Melanocytic
+VGF,Transitory-Melanocytic
+VAT1,Transitory-Melanocytic
+GALNT3,Transitory-Melanocytic
+UGT2B7,Transitory-Melanocytic
+TYRP1,Transitory-Melanocytic
+TYR,Transitory-Melanocytic
+TTYH2,Transitory-Melanocytic
+TMC6,Transitory-Melanocytic
+TMCC2,Transitory-Melanocytic
+TBC1D7,Transitory-Melanocytic
+TBC1D16,Transitory-Melanocytic
+STXBP6,Transitory-Melanocytic
+ST8SIA1,Transitory-Melanocytic
+ST3GAL6,Transitory-Melanocytic
+SOX6,Transitory-Melanocytic
+SLC5A4,Transitory-Melanocytic
+SLC45A2,Transitory-Melanocytic
+SLC27A3,Transitory-Melanocytic
+SLC24A5,Transitory-Melanocytic
+SIRPA,Transitory-Melanocytic
+SCUBE2,Transitory-Melanocytic
+STK32A,Transitory-Melanocytic
+RLBP1,Transitory-Melanocytic
+RENBP,Transitory-Melanocytic
+RRAGD,Transitory-Melanocytic
+RASSF3,Transitory-Melanocytic
+RAP1GAP,Transitory-Melanocytic
+RAB38,Transitory-Melanocytic
+QDPR,Transitory-Melanocytic
+P2RX7,Transitory-Melanocytic
+PRR5,Transitory-Melanocytic
+PMEL,Transitory-Melanocytic
+PLXNC1,Transitory-Melanocytic
+PLEKHH1,Transitory-Melanocytic
+PLA1A,Transitory-Melanocytic
+PDE3B,Transitory-Melanocytic
+PHACTR1,Transitory-Melanocytic
+PPARGC1A,Transitory-Melanocytic
+PMP2,Transitory-Melanocytic
+PI15,Transitory-Melanocytic
+OGDHL,Transitory-Melanocytic
+NRG3,Transitory-Melanocytic
+NKAIN4,Transitory-Melanocytic
+ASAH1,Transitory-Melanocytic
+NAT8L,Transitory-Melanocytic
+GNPTAB,Transitory-Melanocytic
+MYO10,Transitory-Melanocytic
+MBP,Transitory-Melanocytic
+MCC,Transitory-Melanocytic
+MITF,Transitory-Melanocytic
+MFAP3L,Transitory-Melanocytic
+LDB3,Transitory-Melanocytic
+LRGUK,Transitory-Melanocytic
+LGI3,Transitory-Melanocytic
+LINGO1,Transitory-Melanocytic
+LGALS3,Transitory-Melanocytic
+LAMC3,Transitory-Melanocytic
+LAMA1,Transitory-Melanocytic
+KLF15,Transitory-Melanocytic
+KAZN,Transitory-Melanocytic
+IRX6,Transitory-Melanocytic
+IRF4,Transitory-Melanocytic
+INPP4B,Transitory-Melanocytic
+ID4,Transitory-Melanocytic
+IGSF11,Transitory-Melanocytic
+HAS2,Transitory-Melanocytic
+HPS4,Transitory-Melanocytic
+GREB1,Transitory-Melanocytic
+GHR,Transitory-Melanocytic
+GDF15,Transitory-Melanocytic
+GAB2,Transitory-Melanocytic
+GPM6B,Transitory-Melanocytic
+GPNMB,Transitory-Melanocytic
+GYPC,Transitory-Melanocytic
+GYG2,Transitory-Melanocytic
+GAPDHS,Transitory-Melanocytic
+GJB1,Transitory-Melanocytic
+GPRC5B,Transitory-Melanocytic
+FMN1,Transitory-Melanocytic
+FCGR2B,Transitory-Melanocytic
+FCER1G,Transitory-Melanocytic
+DIPK1C,Transitory-Melanocytic
+FAM167B,Transitory-Melanocytic
+ESRP1,Transitory-Melanocytic
+DUSP15,Transitory-Melanocytic
+DSTYK,Transitory-Melanocytic
+DCT,Transitory-Melanocytic
+NSG1,Transitory-Melanocytic
+DAPK1,Transitory-Melanocytic
+CDK5R1,Transitory-Melanocytic
+CELF2,Transitory-Melanocytic
+CTTNBP2,Transitory-Melanocytic
+CHCHD6,Transitory-Melanocytic
+CHCHD10,Transitory-Melanocytic
+C11orf96,Transitory-Melanocytic
+CHN2,Transitory-Melanocytic
+CHL1,Transitory-Melanocytic
+CITED1,Transitory-Melanocytic
+CARD14,Transitory-Melanocytic
+CPN1,Transitory-Melanocytic
+CA14,Transitory-Melanocytic
+CAPN3,Transitory-Melanocytic
+MERTK,Transitory-Melanocytic
+BCAS3,Transitory-Melanocytic
+BEST1,Transitory-Melanocytic
+BCL2A1,Transitory-Melanocytic
+BIRC7,Transitory-Melanocytic
+ATP6V0A4,Transitory-Melanocytic
+ATP10A,Transitory-Melanocytic
+APOE,Transitory-Melanocytic
+APOC1,Transitory-Melanocytic
+ASB2,Transitory-Melanocytic
+ANK2,Transitory-Melanocytic
+GRK3,Transitory-Melanocytic
+ADCY1,Transitory-Melanocytic
+ACP5,Transitory-Melanocytic
+PFKFB2,Transitory-Melanocytic
+HTR2B,Transitory-Melanocytic
+CCDC171,Melanocytic
+CFAP61,Melanocytic
+ZDHHC11B,Melanocytic
+VEPH1,Melanocytic
+TNFRSF14,Melanocytic
+TDRD3,Melanocytic
+TPPP,Melanocytic
+TRIM63,Melanocytic
+TRPM1,Melanocytic
+TTC39A,Melanocytic
+TSPAN10,Melanocytic
+SLC7A8,Melanocytic
+SLC16A6,Melanocytic
+SLAMF7,Melanocytic
+SEMA6A,Melanocytic
+RUNX3,Melanocytic
+RNF144B,Melanocytic
+RNLS,Melanocytic
+RGS12,Melanocytic
+PYCARD,Melanocytic
+PRUNE2,Melanocytic
+PRKCB,Melanocytic
+PRDM7,Melanocytic
+KCNAB2,Melanocytic
+OCA2,Melanocytic
+NR4A3,Melanocytic
+NAV2,Melanocytic
+MYO1D,Melanocytic
+MAPK4,Melanocytic
+MAT1A,Melanocytic
+MLANA,Melanocytic
+LXN,Melanocytic
+KCP,Melanocytic
+IL16,Melanocytic
+IL12RB2,Melanocytic
+HSD17B14,Melanocytic
+HMOX1,Melanocytic
+H2AJ,Melanocytic
+GOLGA7B,Melanocytic
+QPCT,Melanocytic
+GFOD1,Melanocytic
+GPR143,Melanocytic
+FYB1,Melanocytic
+FAM83H,Melanocytic
+FAM174B,Melanocytic
+EPHA5,Melanocytic
+ENTHD1,Melanocytic
+DNAJA4,Melanocytic
+DENND2D,Melanocytic
+C2orf88,Melanocytic
+CCL18,Melanocytic
+CEACAM1,Melanocytic
+CAPG,Melanocytic
+CDH3,Melanocytic
+CDH1,Melanocytic
+ATP6V0D2,Melanocytic
+ABCD1,Melanocytic
+ABCB5,Melanocytic
+APOLD1,Melanocytic
+ANKRD30B,Melanocytic
+ADCY2,Melanocytic
+ADAM23,Melanocytic
