@@ -1,0 +1,28 @@
+sample_id,treatment,treatment_verbose,tissue,tissue_verbose,tissue_code,sex,sex_verbose,batch,lanes,batch_lane,treatment_simple
+63226,sirt5_nt,Non-targetting Control,A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_nt
+63227,sirt5_nt,Non-targetting Control,A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_nt
+63228,sirt5_nt,Non-targetting Control,A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_nt
+63229,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+63230,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+63231,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+63232,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+63233,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+63234,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A2058,A2058,A2058,M,Male,1,1,1_1,sirt5_kd
+70413,sirt5_nt,Non-targetting Control,A375,A375,A375,F,Female,1664,1,1664_1,sirt5_nt
+70414,sirt5_nt,Non-targetting Control,A375,A375,A375,F,Female,1664,1,1664_1,sirt5_nt
+70415,sirt5_nt,Non-targetting Control,A375,A375,A375,F,Female,1664,1,1664_1,sirt5_nt
+70416,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+70417,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+70418,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+70419,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+70420,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+70421,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),A375,A375,A375,F,Female,1664,1,1664_1,sirt5_kd
+73854,sirt5_nt,Non-targetting Control,SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_nt
+73855,sirt5_nt,Non-targetting Control,SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_nt
+73856,sirt5_nt,Non-targetting Control,SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_nt
+73857,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd
+73858,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd
+73859,sirt5_kd_546,Sirt5 Knockdown (shRNA 546),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd
+73860,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd
+73861,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd
+73862,sirt5_kd_547,Sirt5 Knockdown (shRNA 547),SKMEL2,SKMEL2,SKMEL2,M,Male,1736,2,1736_2,sirt5_kd

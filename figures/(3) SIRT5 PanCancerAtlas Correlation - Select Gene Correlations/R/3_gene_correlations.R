@@ -1,0 +1,180 @@
+#!/usr/bin/env Rscript
+
+###---PACKAGES---###
+
+if (!require("pacman")) { install.packages("pacman", repos='http://cran.us.r-project.org') }
+library(pacman)
+
+#required packages
+required_packages = c(
+  "tidyverse",
+  "grid",
+  "ggplotify",
+  "svglite",
+  "AnnotationDbi",
+  "org.Hs.eg.db"
+)
+
+github_packages = c(
+  "slowkow/ggrepel"
+)
+
+#load packages
+pacman::p_load(
+  char=required_packages,
+  install=TRUE,
+  character.only=TRUE,
+  try.bioconductor=TRUE,
+  update.bioconductor=TRUE
+)
+
+#load github packages
+pacman::p_load_gh(
+  char = github_packages,
+  update = getOption("pac_update"),
+  dependencies = TRUE
+)
+
+###---GLOBAL CONFIG---###
+padj_rna_threshold = 0.01
+lfc_rna_threshold = 1
+padj_rho_threshold = 0.01
+
+data.in = "../data/in/"
+#data.in.long = "../data/in/dge/featureCounts_deseq2/table/result_lfcShrink/standardized/sirt5_kd_over_sirt5_nt/"
+data.out = "../data/out/"
+plot.out = "../plot/"
+
+rsem.path = paste0(data.out,"SKCM_RNASeqV2.csv")
+
+#load data
+rsem = read.table(file = rsem.path, header = TRUE, sep = ',', check.names = FALSE) %>%
+	column_to_rownames(var = "aliquot_barcode")
+
+correlation_w_SIRT5 = read.csv(file = paste0(data.out,"correlation_w_SIRT5.csv")) %>%
+	as_tibble() %>%
+	dplyr::mutate(fontface = "italic")
+correlation_w_SIRT5 = correlation_w_SIRT5[
+!is.na(correlation_w_SIRT5$spearman.rho) & 
+!is.na(correlation_w_SIRT5$spearman.FDR) &
+!is.na(correlation_w_SIRT5$pearson.cor) &
+!is.na(correlation_w_SIRT5$pearson.FDR)
+,]
+
+correlation_w_SIRT5$ENTREZID = as.character(correlation_w_SIRT5$ENTREZID)
+
+#non-sirt5 results filtered
+result = read.csv(file = paste0(data.in,"result-lfcShrink_stndrd-filt_anno-basic_padj1_lfc0.csv")) %>%
+	as_tibble() %>%
+  	dplyr::filter(external_gene_name != "SIRT5") %>%
+	dplyr::filter(padj < padj_rna_threshold) %>%
+  dplyr::filter(abs(log2FoldChange) > lfc_rna_threshold)
+
+###---ENTREZ MAPPINGS---###
+
+# Return the Entrez mapping for a set of genes
+annotations_orgDb = AnnotationDbi::select(
+    org.Hs.eg.db,
+    keys = result$ensembl_gene_id,
+    columns = c("SYMBOL", "ENTREZID","GENENAME"),
+    keytype = "ENSEMBL"
+  ) %>%
+  as_tibble()
+
+annotations_orgDb_original = annotations_orgDb
+
+# Determine the indices for the non-NA genes
+non_na_idx = which(is.na(annotations_orgDb$SYMBOL) == FALSE)
+
+# Return only the genes with annotations using indices
+annotations_orgDb = annotations_orgDb[non_na_idx, ]
+
+# Determine the indices for the non-duplicated genes
+non_duplicates_idx <- which(duplicated(annotations_orgDb$SYMBOL) == FALSE)
+
+# Return only the non-duplicated genes using indices
+annotations_orgDb <- annotations_orgDb[non_duplicates_idx, ]
+
+# Determine the indices for the non-duplicated genes
+non_duplicates_idx <- which(duplicated(annotations_orgDb$ENTREZID) == FALSE)
+
+# Return only the non-duplicated genes using indices
+annotations_orgDb <- annotations_orgDb[non_duplicates_idx, ]
+
+# Determine the indices for the non-duplicated genes
+non_duplicates_idx <- which(duplicated(annotations_orgDb$GENENAME) == FALSE)
+
+# Return only the non-duplicated genes using indices
+annotations_orgDb <- annotations_orgDb[non_duplicates_idx, ]
+
+# Determine the indices for the non-duplicated genes
+non_duplicates_idx <- which(duplicated(annotations_orgDb$ENSEMBL) == FALSE)
+
+# Return only the non-duplicated genes using indices
+annotations_orgDb <- annotations_orgDb[non_duplicates_idx, ]
+
+annotations_orgDb = annotations_orgDb %>% setNames(c("ensembl_gene_id","SYMBOL","ENTREZID","GENENAME"))
+
+result_w_entrez = result %>% 
+  left_join(annotations_orgDb) %>%
+  dplyr::filter(!is.na(ENTREZID))
+
+###---PRE-PROCESS DATA---###
+
+#subset correlation by significant SIRT5 correlations that match the direction of change in KD
+# i.e. if down in KD, should have a positive correlation (SIRT5 is also down)
+# i.e. if up in KD, should have a negative correlation (SIRT5 is down in KD, so needs to be) 
+correlation_by_result = result_w_entrez %>%
+	left_join(correlation_w_SIRT5) %>%
+	dplyr::filter((spearman.rho > 0 & log2FoldChange < 0) | (spearman.rho < 0 & log2FoldChange > 0))
+
+# Things to plot
+correlations_to_plot = correlation_by_result %>%
+	dplyr::filter(spearman.FDR < padj_rho_threshold)
+ids_to_plot = as.character(correlations_to_plot$ENTREZID)
+names(ids_to_plot) = correlations_to_plot$external_gene_name
+
+for(i in 1:length(ids_to_plot)) {
+	data = rsem[,c("23408",ids_to_plot[i])]
+	names(data) = c("x","y")
+	spearman.rho = format(round(unname(unlist(correlations_to_plot[correlations_to_plot$ENTREZID == ids_to_plot[i],c("spearman.rho")])),digits=3),nsmall=3)
+	spearman.FDR = format(round(unname(unlist(correlations_to_plot[correlations_to_plot$ENTREZID == ids_to_plot[i],c("spearman.FDR")])),digits=3),nsmall=3)
+	model = lm(y ~ x, data=data)
+	annotations = data.frame(
+        xpos = c(Inf),
+        ypos =  c(Inf),
+        annotateText = paste0(
+        	paste('y =', round(coef(model)[[2]], digits=3), '* x', '+', round(coef(model)[[1]], digits=3)),"\n",
+        	"Adj.R.Squared = ",format(round(summary(model)$adj.r.squared,digits=3),nsmall=3),"\n",
+        	"Spearman.Rho = ",spearman.rho,"\n",
+        	"Spearman.FDR = ",spearman.FDR
+        ),
+        hjustvar = c(1),
+        vjustvar = c(1)
+    )
+	plot = ggplot(data=data, mapping=aes(x=x,y=y)) +
+		labs(x="SIRT5",y=names(ids_to_plot)[i]) +
+		geom_point(color = "black", fill = "black" , alpha = 0.5) +
+		geom_smooth(method='lm',color = "blue")+
+		scale_x_continuous(expand = c(0,0)) +
+    	scale_y_continuous(expand = c(0,0)) +
+    	geom_label(
+    		data=annotations,
+    		aes(x=xpos,y=ypos,hjust=hjustvar,vjust=vjustvar,label=annotateText),
+    		label.r = unit(0, "lines"),
+    		label.size = unit(0.5, "lines")
+    	) +
+		theme_classic() +
+		theme(
+	      axis.title=element_text(size=12),
+	      axis.text=element_text(size=12),
+	      axis.line = element_blank(),
+	      panel.border = element_rect(color = "black", fill = NA, size = 1),
+	      aspect.ratio=1
+	    )
+
+	name=paste0(names(ids_to_plot)[i],"_vs_SIRT5")
+	ggsave(filename=paste0(plot.out,name,".png"),plot=plot,device="png",dpi=320,width=6,height=6)
+	ggsave(filename=paste0(plot.out,name,".svg"),plot=plot,device="svg",dpi=320,width=6,height=6)
+	#ggsave(filename=paste0(plot.out,name,".pdf"),plot=plot,device="pdf",dpi=320,width=6,height=6)
+}

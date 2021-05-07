@@ -1,0 +1,13 @@
+top_cols,top_vals,bottom_cols,bottom_vals,contrast,model,arrange,levels
+tissue+treatment,A2058+sirt5_kd_546,tissue+treatment,A2058+sirt5_nt,A2058+sirt5_kd_546_over_A2058+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_546"
+tissue+treatment,A2058+sirt5_kd_547,tissue+treatment,A2058+sirt5_nt,A2058+sirt5_kd_547_over_A2058+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_547"
+tissue+treatment_simple,A2058+sirt5_kd,tissue+treatment_simple,A2058+sirt5_nt,A2058+sirt5_kd_over_A2058+sirt5_nt,treatment_simple,treatment_simple,"sirt5_nt,sirt5_kd"
+tissue+treatment,A375+sirt5_kd_546,tissue+treatment,A375+sirt5_nt,A375+sirt5_kd_546_over_A375+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_546"
+tissue+treatment,A375+sirt5_kd_547,tissue+treatment,A375+sirt5_nt,A375+sirt5_kd_547_over_A375+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_547"
+tissue+treatment_simple,A375+sirt5_kd,tissue+treatment_simple,A375+sirt5_nt,A375+sirt5_kd_over_A375+sirt5_nt,treatment_simple,treatment_simple,"sirt5_nt,sirt5_kd"
+tissue+treatment,SKMEL2+sirt5_kd_546,tissue+treatment,SKMEL2+sirt5_nt,SKMEL2+sirt5_kd_546_over_SKMEL2+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_546"
+tissue+treatment,SKMEL2+sirt5_kd_547,tissue+treatment,SKMEL2+sirt5_nt,SKMEL2+sirt5_kd_547_over_SKMEL2+sirt5_nt,treatment,treatment,"sirt5_nt,sirt5_kd_547"
+tissue+treatment_simple,SKMEL2+sirt5_kd,tissue+treatment_simple,SKMEL2+sirt5_nt,SKMEL2+sirt5_kd_over_SKMEL2+sirt5_nt,treatment_simple,treatment_simple,"sirt5_nt,sirt5_kd"
+treatment,sirt5_kd_546,treatment,sirt5_nt,sirt5_kd_546_over_sirt5_nt,tissue+treatment,tissue+treatment,"A2058,A375,SKMEL2+sirt5_nt,sirt5_kd_546"
+treatment,sirt5_kd_547,treatment,sirt5_nt,sirt5_kd_547_over_sirt5_nt,tissue+treatment,tissue+treatment,"A2058,A375,SKMEL2+sirt5_nt,sirt5_kd_547"
+treatment_simple,sirt5_kd,treatment_simple,sirt5_nt,sirt5_kd_over_sirt5_nt,tissue+treatment_simple,tissue+treatment_simple,"A2058,A375,SKMEL2+sirt5_nt,sirt5_kd"
